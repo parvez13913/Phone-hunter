@@ -11,9 +11,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+    <!-- start header -->
     <header>
-        <h1 class="text-center mt-3"><span>Phone Forest</span><span><img  width="30px" src="images/phone.png" alt=""></span></h1>
+        <h1 class="text-center my-3"><span>Phone Forest</span><span><img  width="30px" src="images/phone.png" alt=""></span></h1>
     </header>
+    <!-- start main -->
+    <main>
+        <section>
+            <!-- search input field -->
+            <div class="input-group mb-3 w-75 mx-auto">
+                <input id="search-field" type="text" class="form-control" placeholder="Search Your Favorite Phone" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="loadPhone()" class="btn btn-outline-secondary" type="button" id="button-addon2">search</button>
+            </div>
+        </section>
+    </main>
     <!-- bootstrap script link -->
     <script src="js/bootstrap.bundle.min.js"></script>
 
