@@ -109,7 +109,7 @@ const showPhoneDetails = phone => {
             <p class="card-title">ChipSet: ${phone?.mainFeatures.chipSet}</p>
             <p class="card-title">DisplaySize: ${phone?.mainFeatures?.displaySize}</p>
             <p class="card-title">Memory: ${phone?.mainFeatures?.memory}</p>
-            <p class="card-title">Sensors: ${phone?.mainFeatures?.sensors[0]}</p>
+            <p class="card-title">Sensors: ${phone?.mainFeatures?.sensors}</p>
             <h5>Other: not Found</h5>
         </div>
     </div>
@@ -131,7 +131,7 @@ const showPhoneDetails = phone => {
             <p class="card-title">ChipSet: ${phone?.mainFeatures.chipSet}</p>
             <p class="card-title">DisplaySize: ${phone?.mainFeatures?.displaySize}</p>
             <p class="card-title">Memory: ${phone?.mainFeatures?.memory}</p>
-            <p class="card-title">Sensors: ${phone?.mainFeatures?.sensors[0]}</p>
+            <p class="card-title">Sensors: ${phone?.mainFeatures?.sensors}</p>
             <h5>Other:</h5>
             <p class="card-title">Bluetooth: ${phone?.others?.Bluetooth}</p>
             <p class="card-title">GPS: ${phone?.others?.GPS}</p>
