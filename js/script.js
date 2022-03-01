@@ -51,8 +51,8 @@ const showDisply = phones => {
                 <div class="card h-100 w-75 mx-auto p-3 border-0 shadow-lg rounded">
                        <img src="${phone.image}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h6 class="card-title"> Name: ${phone.phone_name}</h6>
-                       <h5 class="card-title">Brand: ${phone.brand}</h5>
+                       <h5 class="card-title"> Name: ${phone.phone_name}</h5>
+                       <h6 class="card-title">Brand: ${phone.brand}</h6>
                        <button onclick = "phoneDetails('${phone.slug}')"  class = "btn bg-color text-white"> Details </button>
                     </div>
                 </div>
@@ -68,11 +68,11 @@ const showDisply = phones => {
         displyDiv.classList.add('col');
         displyDiv.innerHTML = `
         <div class="card h-100 w-75 mx-auto p-3 border-0 shadow-lg rounded">
-               <img src="${phone.image}" class="card-img-top" alt="...">
+               <img src="${phone?.image}" class="card-img-top" alt="...">
             <div class="card-body">
-               <h6 class="card-title"> Name: ${phone.phone_name}</h6>
-               <h5 class="card-title">Brand: ${phone.brand}</h5>
-               <button onclick = "phoneDetails('${phone.slug}')"  class = "btn bg-color text-white"> Details </button>
+               <h5 class="card-title"> Name: ${phone?.phone_name}</h5>
+               <h6 class="card-title">Brand: ${phone?.brand}</h6>
+               <button onclick = "phoneDetails('${phone?.slug}')"  class = "btn bg-color text-white"> Details </button>
             </div>
         </div>
     `;

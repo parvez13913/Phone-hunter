@@ -4,6 +4,9 @@ body{
     padding: 0;
     background-color: #edeff5;
 }
+.t-color{
+    color: #81b441;
+}
 /* button style */
 .bg-color{
     background-color: #788aa8;
