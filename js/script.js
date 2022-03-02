@@ -145,31 +145,3 @@ const showPhoneDetails = phone => {
     phoneDetailsDiv.appendChild(detailsDiv);
     }
 }
-
-
-// const phoneDetailsDiv = document.getElementById('phone-details');
-//     phoneDetailsDiv.textContent = '';
-//     const detailsDiv = document.createElement('div');
-//     detailsDiv.classList.add('col');
-//     detailsDiv.innerHTML = `
-//     <div class="card h-100 w-75 mx-auto p-3 border-0 shadow-lg rounded">
-//             <img src="${phone.image}" class="card-img-top" alt="...">
-//         <div class="card-body">
-//             <h6 class="card-title"> Name: ${phone.name}</h6>
-//             <h6 class="card-title"> Release Date: ${phone?.releaseDate}</h6>
-//             <h6 class="card-title">Brand: ${phone?.brand}</h6>
-//             <p class="card-title">ChipSet: ${phone?.mainFeatures.chipSet}</p>
-//             <p class="card-title">DisplaySize: ${phone?.mainFeatures?.displaySize}</p>
-//             <p class="card-title">Memory: ${phone?.mainFeatures?.memory}</p>
-//             <p class="card-title">Sensors: ${phone?.mainFeatures?.sensors[0]}</p>
-//             <h5>Other:</h5>
-//             <p class="card-title">Bluetooth: ${phone?.others?.Bluetooth}</p>
-//             <p class="card-title">GPS: ${phone?.others?.GPS}</p>
-//             <p class="card-title">USB: ${phone?.others?.USB}</p>
-//             <p class="card-title">WLAN: ${phone?.others?.WLAN}</p>
-//             <p class="card-title">NFC: ${phone?.others?.NFC}</p>
-//             <p class="card-title">Radio: ${phone?.others?.Radio}</p>
-//         </div>
-//     </div>
-//     `;
-//     phoneDetailsDiv.appendChild(detailsDiv);
